@@ -14,11 +14,11 @@ class Program
     static void Main()
     {
         Vehiculo vehiculo = new Vehiculo();
-        vehiculo.marca = "Toyota";
-        vehiculo.modelo = "Corolla";
-        vehiculo.anio = 2020;
-        vehiculo.color = "Rojo";
-        vehiculo.placa = "ABC-123";
+        vehiculo.marca = "Kia";
+        vehiculo.modelo = "Sportage";
+        vehiculo.anio = 2006;
+        vehiculo.color = "blanco";
+        vehiculo.placa = "007-XRD";
 
         Console.WriteLine("--- Vehículo ---");
         Console.WriteLine("Marca: " + vehiculo.marca);
